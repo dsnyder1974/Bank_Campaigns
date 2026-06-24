@@ -32,7 +32,7 @@ The `duration` feature should be excluded from a realistic predictive model beca
 | Decision Tree | 0.903065 | 0.902646 | 0.375389 |
 | SVM | 0.904856 | 0.903496 | 0.362470 |
 
-The Decision Tree was the best-performing model based on the combination of test accuracy and F1 score. KNN achieved perfect training accuracy, but its lower testing accuracy and F1 score suggest overfitting. Logistic Regression and SVM both performed well in terms of accuracy, but their lower F1 scores indicate that they were less effective than the Decision Tree at identifying positive subscription cases.
+Although the SVM model produced the highest training and testing accuracy, the Decision Tree model produced the highest F1 score. Because this dataset is imbalanced and the business objective is to identify customers who are likely to subscribe to a term deposit, F1 score is an important metric for evaluating performance on the positive class. For that reason, the Decision Tree is the better overall choice for this project, even though SVM had slightly higher accuracy. The Decision Tree also has the added benefit of being more interpretable for business stakeholders.
 
 ## Recommendations
 
