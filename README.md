@@ -1,5 +1,7 @@
 # Bank Marketing Classifier Comparison
 
+[View the full analysis notebook](Bank_Campaigns.ipynb)
+
 ## Overview
 
 This project compares several classification models to predict whether a customer will subscribe to a bank term deposit after a telephone marketing campaign. The dataset comes from the UCI Machine Learning Repository and includes results from 17 marketing campaigns conducted by a Portuguese banking institution. The main business objective is to help the bank improve future campaign efficiency by identifying customers who are more likely to respond positively, reducing wasted outreach, and supporting better marketing decisions.
